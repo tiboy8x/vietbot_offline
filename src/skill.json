@@ -389,7 +389,7 @@
         }
     ],
     "weather": {
-        "openweathermap_key": "ffddba060ff1a735f04ff426f85f070b",
+        "openweathermap_key": "ffddbagdfg85fdgdfb",
         "pre_answer": null,
         "error_answer": "Lỗi tra cứu thời tiết khu vực",
         "active": true
