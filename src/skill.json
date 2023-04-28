@@ -395,14 +395,13 @@
         "active": true
     },
     "hass": {
-        "hass_url": "http://14.232.5.123:8123",
-        "hass_token": "eyJhbGciOiJIILaTP7jp_YtDXMWMyjfLchz2IRasLlU",
+        "hass_url": "http://192.168.1.123:8123",
+        "hass_token": "eyfdfdsfsLlU",
         "pre_answer": null,
         "error_answer": "Lỗi kết nối đến Hass",
         "display_full_state": true,
         "active": true
     },
-
     "funny_story": {
         "pre_answer": "Tìm câu trả lời từ Skill truyện cười",
         "error_answer": "Lỗi Skill truyện cười",
@@ -427,7 +426,7 @@
         "active": true
     },
     "chatgpt": {
-        "token": "sk-UR3fdsfsdsfsdfN03a",
+        "token": "sk-UR3dgfdg03a",
         "engine": "text-davinci-003",
         "pre_answer": "Câu trả lời từ chatGPT có ngay sau đây",
         "error_answer": "Lỗi chatGPT",
@@ -440,7 +439,7 @@
         "active": false
     },
     "telegram": {
-        "token": "6068674110:AAEZE0cJirYzQyHKQUx4E_UzNMn52BdoAeU",
+        "token": "60gfdgdfAeU",
         "pre_answer": "Đang gửi Telegram tới đich",
         "error_answer": "Lỗi Telegram",
         "active": false
