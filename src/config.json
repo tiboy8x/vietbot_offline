@@ -36,7 +36,7 @@
 			"file_name": "hey siri_raspberry-pi.ppn",
 			"lang":"eng",
 			"sensitive": 0.4,
-			"active": true
+			"active": false
 		}, 
 		{
 			"type": "porcupine",
