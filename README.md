@@ -1,6 +1,5 @@
-# vietbot_offline
 
-#Vietbot Offline nhánh Alpha với các đặc điểm sau:
+# Vietbot Offline nhánh Alpha với các đặc điểm sau:
 
 Có chức năng mới, cần góp ý hoàn thiện
 
