@@ -33,7 +33,7 @@ google-auth-oauthlib==0.2.0
 google-cloud==0.34.0
 google-cloud-speech==2.19.0
 google-cloud-texttospeech==2.14.1
-googleapis-common-protos=1.59.0
+googleapis-common-protos==1.59.0
 gpiozero==1.6.2
 grpcio==1.53.0
 grpcio-status==1.53.0
