@@ -5,6 +5,7 @@ Có chức năng mới, cần góp ý hoàn thiện
 
 Tồn tại lỗi, bug cần Test để hoàn thiện
 
+Update liên tục trong ngày để cập nhật sửa lỗi
 
 Dành cho các Tester có kinh nghiệm sử dụng Viebot
 
