@@ -22,10 +22,7 @@
 		"speak_mode": 2,
 		"speak_color": "074a25"
 	},
-	"volume": {
-		"value": 15,
-		"annoucement": true
-	},
+	"volume_annoucement": true
 	"hotword_engine": {
 		"type": "porcupine",
 		"key": "EhpBuTJggF/KvZdfsdfIwUtAONg=="
