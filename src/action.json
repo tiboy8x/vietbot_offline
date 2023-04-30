@@ -38,9 +38,6 @@
     "change": {
         "value": "thay đổi"
     },
-    "pause": {
-        "value": "tạm dừng"
-    },
     "continue": {
         "value": "tiếp tục"
     },
@@ -92,14 +89,21 @@
             "value": "chơi"
         }
     ],
-    "stop": [{
-            "value": "dừng"
+    "pause": [{
+            "value": "tạm dừng"
         },
         {
+            "value": "tạm ngừng"
+        }
+    ],	
+    "stop": [{
             "value": "stop"
         },
         {
-            "value": "ngừng"
+            "value": "dừng phát"
+        },
+        {
+            "value": "ngừng phát"
         }
     ],
     "send": [{
