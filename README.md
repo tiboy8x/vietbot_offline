@@ -11,5 +11,5 @@ Dành cho các Tester có kinh nghiệm sử dụng Viebot
 
 Sau khi cập nhật, hoàn thiện sẽ chuyển sang nhánh beta
 
-# Chân thành cám ơn mọi ý kiến đóng góp của Tester để bản Alpha sớm sang bản Beta, đén được nhiều người dùng phổ thông hơn
+# Chân thành cám ơn mọi ý kiến đóng góp của Tester để bản Alpha sớm sang bản Beta, đến được nhiều người dùng phổ thông hơn
 
