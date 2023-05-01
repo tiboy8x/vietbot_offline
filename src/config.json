@@ -28,27 +28,54 @@
 		"key": "npOJ8IfdgdXcani4Q=="
 	},
 	"hotword": [{
-		"type": "porcupine",
-		"value": null,
-		"file_name": "hey siri_raspberry-pi.ppn",
-		"lang": "eng",
-		"sensitive": 0.4,
-		"active": false
-	}, {
-		"type": "porcupine",
-		"value": null,
-		"lang": "vi",
-		"file_name": "chao_chi_raspberry-pi.ppn",
-		"sensitive": 0.4,
-		"active": true
-	}, {
-		"type": "custom",
-		"value": "mai ca \u01a1i",
-		"lang": "vi",
-		"file_name": null,
-		"sensitive": 0.4,
-		"active": false
-	}],
+			"type": "porcupine",
+			"value": null,
+			"file_name": "hey siri_raspberry-pi.ppn",
+			"lang": "eng",
+			"sensitive": 0.4,
+			"active": false
+		},
+		{
+			"type": "porcupine",
+			"value": null,
+			"lang": "vi",
+			"file_name": "chao_chi_raspberry-pi.ppn",
+			"sensitive": 0.4,
+			"active": true
+		},
+		{
+			"type": "porcupine",
+			"value": null,
+			"lang": "vi",
+			"file_name": "em-ơi_raspberry-pi.ppn",
+			"sensitive": 0.4,
+			"active": true
+		},
+		{
+			"type": "porcupine",
+			"value": null,
+			"lang": "vi",
+			"file_name": "người-đẹp-ơi_raspberry-pi.ppn",
+			"sensitive": 0.4,
+			"active": true
+		},
+		{
+			"type": "porcupine",
+			"value": null,
+			"lang": "vi",
+			"file_name": "hà-nội-ơi_raspberry-pi.ppn",
+			"sensitive": 0.4,
+			"active": true
+		},
+		{
+			"type": "custom",
+			"value": "mai ca \u01a1i",
+			"lang": "vi",
+			"file_name": null,
+			"sensitive": 0.4,
+			"active": false
+		}
+	],
 	"stt": {
 		"type": "stt_gg_cloud",
 		"token": null,
