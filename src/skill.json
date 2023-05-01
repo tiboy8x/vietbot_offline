@@ -395,8 +395,8 @@
         "active": true
     },
     "hass": {
-        "hass_url": "http://192.168.1.123:8123",
-        "hass_token": "eyfdfdsfsLlU",
+        "url": "http://192.168.1.123:8123",
+        "token": "eyfdfdsfsLlU",
         "pre_answer": null,
         "error_answer": "Lỗi kết nối đến Hass",
         "display_full_state": true,
