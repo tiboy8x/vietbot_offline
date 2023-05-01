@@ -70,14 +70,6 @@
 			"file_name": "hà-nội-ơi_raspberry-pi.ppn",
 			"sensitive": 0.4,
 			"active": true
-		},
-		{
-			"type": "custom",
-			"value": "mai ca \u01a1i",
-			"lang": "vi",
-			"file_name": null,
-			"sensitive": 0.4,
-			"active": false
 		}
 	],
 	"stt": {
