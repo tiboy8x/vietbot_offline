@@ -33,6 +33,7 @@
 			"file_name": "hey siri_raspberry-pi.ppn",
 			"lang": "eng",
 			"sensitive": 0.4,
+			"command": null,		
 			"active": false
 		},
 		{
@@ -41,6 +42,7 @@
 			"lang": "vi",
 			"file_name": "chào-chị_raspberry-pi.ppn",
 			"sensitive": 0.4,
+			"command": "bây giờ là mấy giờ",			
 			"active": true
 		},
 		{
@@ -49,6 +51,7 @@
 			"lang": "vi",
 			"file_name": "em-ơi_raspberry-pi.ppn",
 			"sensitive": 0.4,
+			"command": "thời tiết hôm nay thế nào",			
 			"active": true
 		},
 		{
@@ -57,6 +60,7 @@
 			"lang": "vi",
 			"file_name": "người-đẹp-ơi_raspberry-pi.ppn",
 			"sensitive": 0.4,
+			"command": "tắt đèn phòng khách",						
 			"active": true
 		},
 		{
