@@ -33,7 +33,7 @@
 			"file_name": "hey siri_raspberry-pi.ppn",
 			"lang": "eng",
 			"sensitive": 0.4,
-			"command": null,		
+			"command": null,
 			"active": false
 		},
 		{
@@ -42,7 +42,7 @@
 			"lang": "vi",
 			"file_name": "chào-chị_raspberry-pi.ppn",
 			"sensitive": 0.4,
-			"command": "bây giờ là mấy giờ",			
+			"command": "bây giờ là mấy giờ",
 			"active": true
 		},
 		{
@@ -51,7 +51,7 @@
 			"lang": "vi",
 			"file_name": "em-ơi_raspberry-pi.ppn",
 			"sensitive": 0.4,
-			"command": "thời tiết hôm nay thế nào",			
+			"command": "thời tiết hôm nay thế nào",
 			"active": true
 		},
 		{
@@ -60,7 +60,7 @@
 			"lang": "vi",
 			"file_name": "người-đẹp-ơi_raspberry-pi.ppn",
 			"sensitive": 0.4,
-			"command": "tắt đèn phòng khách",						
+			"command": "khoảng cách từ Hà Nội đi Sài Gòn",
 			"active": true
 		},
 		{
@@ -69,9 +69,27 @@
 			"lang": "vi",
 			"file_name": "hà-nội-ơi_raspberry-pi.ppn",
 			"sensitive": 0.4,
-			"command": null,	
+			"command": null,
 			"active": true
-		}
+		},
+		{
+			"type": "porcupine",
+			"value": null,
+			"lang": "vi",
+			"file_name": "vợ-đâu-rồi_raspberry-pi.ppn",
+			"sensitive": 0.4,
+			"command": null,
+			"active": true
+		},
+		{
+			"type": "porcupine",
+			"value": null,
+			"lang": "vi",
+			"file_name": "con-mụ-kia_raspberr.ppn",
+			"sensitive": 0.4,
+			"command": null,
+			"active": true
+		}		
 	],
 	"stt": {
 		"type": "stt_gg_cloud",
@@ -123,7 +141,29 @@
 	"sound": {
 		"sys_start": "sound/ding.mp3",
 		"sys_finish": "sound/dong.mp3",
-		"bot_start": "sound/ding.mp3",
+		"wakeup": {
+			"mode": "text",
+			"path": "sound/ding.mp3",
+			"text": [{
+					"value": "Dạ em nghe"
+				},
+				{
+					"value": "Có em"
+				},
+				{
+					"value": "Em đây"
+				},
+				{
+					"value": "Gì vậy anh"
+				},
+				{
+					"value": "Vâng anh"
+				},
+				{
+					"value": "OK anh"
+				}
+			]
+		},
 		"welcome": {
 			"mode": "text",
 			"path": "sound/ding.mp3",
