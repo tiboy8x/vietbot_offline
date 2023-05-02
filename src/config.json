@@ -99,7 +99,7 @@
 		},
 		"up": {
 			"gpio": 5,
-			"pulse": false,
+			"pulse": true,
 			"active": true
 		},
 		"wakeup": {
