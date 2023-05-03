@@ -7,7 +7,7 @@ Tồn tại lỗi, bug cần Test để hoàn thiện
 
 Update liên tục trong ngày để cập nhật sửa lỗi
 
-Dành cho các Tester có kinh nghiệm sử dụng Viebot
+Dành cho các Tester có kinh nghiệm sử dụng Vietbot
 
 Sau khi cập nhật, hoàn thiện sẽ chuyển sang nhánh beta
 
