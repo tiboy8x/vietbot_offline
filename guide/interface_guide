@@ -13,7 +13,7 @@ sudo rm -rf /var/www/html/*.*
 1.2. Copy vào thư mục /var/www bằng lệnh
 
 ```sh
-sudo cp /home/pi/html/*.* /var/www/html/
+sudo cp /home/pi/html/*.* /var/www/html/*.*
 
 ```
 1.3. Set quyền cho toàn bộ thư mục html bằng lệnh:
