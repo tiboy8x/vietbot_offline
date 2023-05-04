@@ -86,7 +86,7 @@ Chỉ được kích hoạt hotword có cùng 1 loại ngôn ngữ
 
 ### STEP4. Đổi thư viện
 
-4.1 Download thư viện cho hotword tiếng Việt, theo link sau
+4.1 Download thư viện cho hotword tiếng Anh, theo link sau
 
 https://github.com/Picovoice/porcupine/blob/master/lib/common/porcupine_params.pv
 
