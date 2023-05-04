@@ -138,37 +138,19 @@
 		"lon": 105.804817,
 		"lat": 21.028511
 	},
-	"sound": {
-		"sys_start": "sound/ding.mp3",
-		"sys_finish": "sound/dong.mp3",
-		"wakeup": {
-			"mode": "text",
-			"path": "sound/ding.mp3",
-			"text": [{
-					"value": "Dạ em nghe"
-				},
-				{
-					"value": "Có em"
-				},
-				{
-					"value": "Em đây"
-				},
-				{
-					"value": "Gì vậy anh"
-				},
-				{
-					"value": "Vâng anh"
-				},
-				{
-					"value": "OK anh"
-				}
-			]
-		},
-		"welcome": {
-			"mode": "text",
-			"path": "sound/ding.mp3",
-			"text": "Xin ch\u00e0o m\u1eddi \u0111\u1ecdc kh\u1ea9u l\u1ec7nh \u0111\u1ec3 ra l\u1ec7nh"
-		}
-	},
+    "sound": {
+        "default": {
+            "start": "sound/default/ding.mp3",
+            "finish": "sound/default/dong.mp3"
+        },
+        "custom": {
+            "start": "sound/custom/"
+        },
+        "welcome": {
+            "mode": "text",
+            "path": "sound/welcome/welcome.mp3",
+            "text": "Xin chào mời đọc khẩu lệnh, để ra lệnh"
+        }
+    },
 	"continuous_asking": false
 }
