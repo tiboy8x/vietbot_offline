@@ -52,8 +52,7 @@ TTS sẽ trả về bản tin json với payload:
 'state' : 'Failed','result':'Payload of request is invalid format' 
 
 ```
-1.4. Ví dụ
-1.4.1 Với Home Assistant
+1.4. Ví dụ với Home Assistant
 
 Khai báo trong configuration.yaml
 ```sh
@@ -126,8 +125,7 @@ Trong đó text, link là câu trả lời và link online của bài hát, kên
 
 ```
 
-2.4. Ví dụ
-2.4.1 Với Home Assistant
+2.4. Ví dụ với Home Assistant
 
 Khai báo trong configuration.yaml
 ```sh
@@ -153,9 +151,9 @@ automation:
         data: Tắt Tivi phòng khách 
   mode: single
 ```
-### STEP4. Nhận cảnh báo tù Cam Hanet và đọc ra loa
+### STEP3. Nhận cảnh báo tù Cam Hanet và đọc ra loa
 
-4.1. Mô tả API
+3.1. Mô tả API
 
 Địa chỉ: http://X.X.1.X:5000
 
@@ -165,9 +163,9 @@ Phương thức: POST
 
 Cấu trúc bản tin: Theo quy định của Hanet
 
-4.2 Phản hồi
+3.2 Phản hồi
 
-4.2.1 Phản hồi thành công: 
+3.2.1 Phản hồi thành công: 
 
 TTS sẽ trả về bản tin json với payload:
 
@@ -176,22 +174,22 @@ TTS sẽ trả về bản tin json với payload:
 'state' : 'Success','Result' : 'Get Hanet event and speak face information OK'
 
 ```
-4.3 Phản hồi không thành công
+3.3 Phản hồi không thành công
 
-4.3.1. Do không kích hoạt Module Speaker Ouput trong config Vietbot
+3.3.1. Do không kích hoạt Module Speaker Ouput trong config Vietbot
 
 ```sh
 state':'Failed','result':'Ouput Speaker in Vietbot config not enable'                        
 
 ```
 
-4.3.2. Tiến trình xử lý trên Vietbot đang bị lỗi 
+3.3.2. Tiến trình xử lý trên Vietbot đang bị lỗi 
 
 ```sh
 'state':'Failed','result':'Vietbot process error'                        
 
 ```
-4.3.3. Và cuối cùng là sai định dạng 
+3.3.3. Và cuối cùng là sai định dạng 
 
 ```sh
 'state' : 'Failed','result':'Payload of request is invalid format' 
