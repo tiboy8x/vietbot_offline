@@ -136,15 +136,15 @@
 	},
     "sound": {
         "default": {
-            "start": "sound/default/ding.mp3",
-            "finish": "sound/default/dong.mp3"
+            "start": "sound/default/ding.wav",
+            "finish": "sound/default/dong.wav"
         },
         "custom": {
             "start": "sound/custom/"
         },
         "welcome": {
             "mode": "text",
-            "path": "sound/welcome/welcome.mp3",
+            "path": "sound/welcome/welcome.wav",
             "text": "Xin chào mời đọc khẩu lệnh, để ra lệnh"
         }
     },
