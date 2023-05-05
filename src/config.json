@@ -112,22 +112,18 @@
 	"button": {
 		"down": {
 			"gpio": 24,
-			"pulse": true,
 			"active": true
 		},
 		"up": {
 			"gpio": 5,
-			"pulse": true,
 			"active": true
 		},
 		"wakeup": {
 			"gpio": 26,
-			"pulse": true,
 			"active": true
 		},
 		"mic": {
 			"gpio": 6,
-			"pulse": true,
 			"active": false
 		}
 	},
