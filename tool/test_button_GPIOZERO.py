@@ -12,7 +12,7 @@ btn_13=Button(13,pull_up=True)
 btn_14=Button(14,pull_up=True)
 btn_15=Button(15,pull_up=True)
 btn_16=Button(16,pull_up=True)
-btn_17=Button(17,pull_up=True) #Chú ý: Button này đang dùng cho nút bấm trên mặt Mic2HAT
+btn_17=Button(17,pull_up=False) #Chú ý: Button này đang dùng cho nút bấm trên mặt Mic2HAT
 btn_18=Button(18,pull_up=True)
 btn_19=Button(19,pull_up=True)
 btn_20=Button(20,pull_up=True)
