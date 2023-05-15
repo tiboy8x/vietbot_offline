@@ -4,6 +4,10 @@ https://drive.google.com/file/d/12aG8SDcpeoXt5ONNLD3SPjMj69BZyYeQ/view
 
 - Ngày 14/4
 - Sử dụng raspbian mới nhất, bản full
+- Driver của WaveShare
+- Chạy ổn định
+- Thiếu Lib Python cho Vietbot nhánh Beta, cần cài thêm
+
 ```sh
 pi@pi1wmic2hat:~ $ hostnamectl
    Static hostname: pi1wmic2hat
@@ -26,10 +30,6 @@ SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
 BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 pi@pi1wmic2hat:~ $ 
 ```
-- Driver của WaveShare
-- Chạy ổn định
-- Thiếu Lib Python cho Vietbot nhánh Beta, cần cài thêm
-
 ### Link image cho các loại Mic USB, bao gồm cả Respeaker:
 
 ```sh
