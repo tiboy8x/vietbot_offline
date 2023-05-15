@@ -1,8 +1,8 @@
-### Link image cho các loại Mic 2HAT, 4HAT:
+### Link image cho Mic 2HAT 17/4:
 
 https://drive.google.com/file/d/12aG8SDcpeoXt5ONNLD3SPjMj69BZyYeQ/view
 
-- Ngày 14/4
+- Ngày 17/4
 - Sử dụng raspbian mới nhất, bản full
 - Driver của WaveShare
 - Chạy ổn định
