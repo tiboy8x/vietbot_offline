@@ -7,6 +7,7 @@ https://drive.google.com/file/d/12aG8SDcpeoXt5ONNLD3SPjMj69BZyYeQ/view
 - Driver của WaveShare
 - Chạy ổn định
 - Thiếu Lib Python cho Vietbot nhánh Beta, cần cài thêm
+- Có sẵn code vietbot nhánh Beta, cập nhật ngày 24/4
 
 ```sh
 pi@pi1wmic2hat:~ $ hostnamectl
