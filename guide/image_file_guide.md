@@ -1,9 +1,10 @@
-### Link image cho các loại Mic 2HAT:
+### Link image cho các loại Mic 2HAT, 4HAT:
 
 https://drive.google.com/file/d/12aG8SDcpeoXt5ONNLD3SPjMj69BZyYeQ/view
 
 - Ngày 14/4
 - Sử dụng raspbian bản cũ
+- Driver của ReSpeaker
 - Chạy ổn định
 - Thiếu Lib Python cho Vietbot nhánh Beta, cần cài thêm
 
@@ -27,6 +28,7 @@ https://drive.google.com/file/d/1QmU3ANqA7RwTO4cwLUv9i9ypRn5hXh_Z/view?usp=share
 ```
 - Ngày 4/5
 - Sử dụng raspbian bản mới nhất
+- Driver của WaveShare
 - Có thể chạy update gói cho OS
 - Chạy ổn định
 - Chưa chỉnh config.text cho Led WS2182
