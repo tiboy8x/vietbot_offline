@@ -111,6 +111,6 @@ cp /home/pi/porcupine_params_vn.pv /home/pi/.local/lib/python3.9/site-packages/p
 Dùng lệnh sau:
 
 ```sh
-cp /home/pi/porcupine_params.pv /home/pi/.local/lib/python3.9/site-packages/pvporcupine/lib/common/porcupine_params.pv
+cp /home/pi/porcupine_params_vn.pv /home/pi/.local/lib/python3.9/site-packages/pvporcupine/lib/common/porcupine_params.pv
 
 ```
