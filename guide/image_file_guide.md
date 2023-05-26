@@ -1,3 +1,39 @@
+
+### Link image cho Mic 2HAT 20/5:
+
+https://drive.google.com/file/d/10_cCoqy3NNWZKtwef0aU8Tbyja3weLHu/view?usp=sharing
+- Ngày 20/5
+- Sử dụng raspbian mới nhất, bản full
+- Driver của WaveShare
+- Chạy ổn định
+- Có sẵn code vietbot nhánh Beta, cập nhật đến ngày 20/5
+
+
+### Link image cho tất cả các loại Mic USB và cả Mic2HAT ngày 4/5:
+
+```sh
+https://drive.google.com/file/d/1QmU3ANqA7RwTO4cwLUv9i9ypRn5hXh_Z/view?usp=share_link
+```
+- Ngày 4/5
+- Sử dụng raspbian bản mới nhất, lite
+- Driver của WaveShare
+- Chạy ổn định
+- Chưa chỉnh config.text cho Led WS2182
+- Thiếu Lib Python cho Vietbot nhánh Beta, cần cài thêm
+
+### Link image cho các loại Mic USB, bao gồm cả Respeaker ngày 2/5:
+
+```sh
+https://drive.google.com/file/d/1df20SSrtqax8yGAQw9K6sNJxArDA7o5D/view?usp=share_link
+```
+- Ngày 2/5
+- Sử dụng raspbian bản mới nhất, lite
+- Chạy ổn định
+- Thiếu Lib Python cho Vietbot nhánh Beta, cần cài thêm
+
+Bản mới nhất của raspbian lite, đã cập nhật gói tin, đã có sẵn lib python, có sẵn giao diện
+
+
 ### Link image cho Mic 2HAT 17/4:
 
 https://drive.google.com/file/d/12aG8SDcpeoXt5ONNLD3SPjMj69BZyYeQ/view
@@ -31,27 +67,6 @@ SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
 BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 pi@pi1wmic2hat:~ $ 
 ```
-### Link image cho các loại Mic USB, bao gồm cả Respeaker:
 
-```sh
-https://drive.google.com/file/d/1df20SSrtqax8yGAQw9K6sNJxArDA7o5D/view?usp=share_link
-```
-- Ngày 2/5
-- Sử dụng raspbian bản mới nhất, lite
-- Chạy ổn định
-- Thiếu Lib Python cho Vietbot nhánh Beta, cần cài thêm
 
-Bản mới nhất của raspbian lite, đã cập nhật gói tin, đã có sẵn lib python, có sẵn giao diện
-
-### Link image cho tất cả các loại Mic USB và cả Mic2HAT:
-
-```sh
-https://drive.google.com/file/d/1QmU3ANqA7RwTO4cwLUv9i9ypRn5hXh_Z/view?usp=share_link
-```
-- Ngày 4/5
-- Sử dụng raspbian bản mới nhất, lite
-- Driver của WaveShare
-- Chạy ổn định
-- Chưa chỉnh config.text cho Led WS2182
-- Thiếu Lib Python cho Vietbot nhánh Beta, cần cài thêm
 
