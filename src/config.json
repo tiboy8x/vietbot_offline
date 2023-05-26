@@ -36,60 +36,60 @@
 			"command": null,
 			"active": false
 		},
-		{
-			"type": "porcupine",
-			"value": null,
-			"lang": "vi",
-			"file_name": "chào-chị_raspberry-pi.ppn",
-			"sensitive": 0.4,
-			"command": "bây giờ là mấy giờ",
-			"active": true
-		},
-		{
-			"type": "porcupine",
-			"value": null,
-			"lang": "vi",
-			"file_name": "em-ơi_raspberry-pi.ppn",
-			"sensitive": 0.4,
-			"command": "thời tiết hôm nay thế nào",
-			"active": true
-		},
-		{
-			"type": "porcupine",
-			"value": null,
-			"lang": "vi",
-			"file_name": "người-đẹp-ơi_raspberry-pi.ppn",
-			"sensitive": 0.4,
-			"command": "khoảng cách từ Hà Nội đi Sài Gòn",
-			"active": true
-		},
-		{
-			"type": "porcupine",
-			"value": null,
-			"lang": "vi",
-			"file_name": "hà-nội-ơi_raspberry-pi.ppn",
-			"sensitive": 0.4,
-			"command": null,
-			"active": true
-		},
-		{
-			"type": "porcupine",
-			"value": null,
-			"lang": "vi",
-			"file_name": "vợ-đâu-rồi_raspberry-pi.ppn",
-			"sensitive": 0.4,
-			"command": null,
-			"active": true
-		},
-		{
-			"type": "porcupine",
-			"value": null,
-			"lang": "vi",
-			"file_name": "con-mụ-kia_raspberry-pi.ppn",
-			"sensitive": 0.4,
-			"command": null,
-			"active": true
-		}		
+        {
+            "type": "porcupine",
+            "value": null,
+            "lang": "vi",
+            "file_name": "chào-chị_raspberry-pi.ppn",
+            "sensitive": 0.4,
+            "command": null,
+            "active": true
+        },
+        {
+            "type": "porcupine",
+            "value": null,
+            "lang": "vi",
+            "file_name": "em-ơi_raspberry-pi.ppn",
+            "sensitive": 0.4,
+            "command": null,
+            "active": true
+        },
+        {
+            "type": "porcupine",
+            "value": null,
+            "lang": "vi",
+            "file_name": "người-đẹp-ơi_raspberry-pi.ppn",
+            "sensitive": 0.4,
+            "command": null,
+            "active": true
+        },
+        {
+            "type": "porcupine",
+            "value": null,
+            "lang": "vi",
+            "file_name": "hà-nội-ơi_raspberry-pi.ppn",
+            "sensitive": 0.4,
+            "command": null,
+            "active": true
+        },
+        {
+            "type": "porcupine",
+            "value": null,
+            "lang": "vi",
+            "file_name": "vợ-đâu-rồi_raspberry-pi.ppn",
+            "sensitive": 0.4,
+            "command": "thời tiết hôm nay thế nào",
+            "active": true
+        },
+        {
+            "type": "porcupine",
+            "value": null,
+            "lang": "vi",
+            "file_name": "con-mụ-kia_raspberry-pi.ppn",
+            "sensitive": 0.4,
+            "command": "bây giờ là mấy giờ",
+            "active": true
+        }       		
 	],
 	"stt": {
 		"type": "stt_gg_free",
