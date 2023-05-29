@@ -6,42 +6,59 @@
 		"type": "default",
 		"amixer_id": 0
 	},
-	"led": {
-		"type": "ReSpeaker 2-Mics Pi HAT",
-		"number_led": 3,
-		"effect_mode": 1,
-		"brightness": 10,
-		"off_mode": 1,
-		"off_color": "03254b",
-		"wakeup_mode": 1,
-		"wakeup_color": "03254b",
-		"listen_mode": 2,
-		"listen_color": "03254b",
-		"think_mode": 3,
-		"think_color": "074a25",
-		"speak_mode": 2,
-		"speak_color": "074a25"
-	},
-	"volume_annoucement": true,
-	"hotword_engine": {
-		"type": "porcupine",
-		"key": "npOJ8IfdgdXcani4Q=="
-	},
-	"hotword": [{
-			"type": "porcupine",
-			"value": null,
-			"file_name": "hey siri_raspberry-pi.ppn",
-			"lang": "eng",
-			"sensitive": 0.4,
-			"command": null,
-			"active": false
-		},
+    "led": {
+        "type": "Vietbot AIO Board V2.0",
+        "number_led": 16,
+        "effect_mode": 1,
+        "brightness": 150,
+        "wakeup_color": "03254b",
+        "muted_color": "FF3333",
+        "listen_effect": 1,
+        "think_effect": 2,
+        "speak_effect": 2
+
+    },
+    "volume_annoucement": true,
+    "hotword_engine": {
+        "type": "porcupine",
+        "key": "+1fiXzdbbOtBVTolh5RCQ1ovxjKI3+HM0HRKxL/uWUExVtsFmUdZ+Q=="
+    },
+    "wakeup_reply": [{
+            "value": "có em"
+        },
+        {
+            "value": "em đây"
+        },
+        {
+            "value": "đây anh"
+        },
+        {
+            "value": "gì anh"
+        },
+        {
+            "value": "yes anh"
+        },
+        {
+            "value": "vâng anh"
+        }
+    ],
+    "hotword": [{
+            "type": "porcupine",
+            "value": null,
+            "file_name": "hey siri_raspberry-pi.ppn",
+            "lang": "eng",
+            "sensitive": 0.4,
+            "say_reply": false,
+            "command": null,
+            "active": false
+        },
         {
             "type": "porcupine",
             "value": null,
             "lang": "vi",
             "file_name": "chào-chị_raspberry-pi.ppn",
-            "sensitive": 0.4,
+            "sensitive": 0.1,
+            "say_reply": false,
             "command": null,
             "active": true
         },
@@ -50,7 +67,8 @@
             "value": null,
             "lang": "vi",
             "file_name": "em-ơi_raspberry-pi.ppn",
-            "sensitive": 0.4,
+            "sensitive": 0.1,
+            "say_reply": false,
             "command": null,
             "active": true
         },
@@ -59,7 +77,8 @@
             "value": null,
             "lang": "vi",
             "file_name": "người-đẹp-ơi_raspberry-pi.ppn",
-            "sensitive": 0.4,
+            "sensitive": 0.1,
+            "say_reply": false,
             "command": null,
             "active": true
         },
@@ -68,7 +87,8 @@
             "value": null,
             "lang": "vi",
             "file_name": "hà-nội-ơi_raspberry-pi.ppn",
-            "sensitive": 0.4,
+            "sensitive": 0.1,
+            "say_reply": false,
             "command": null,
             "active": true
         },
@@ -77,8 +97,9 @@
             "value": null,
             "lang": "vi",
             "file_name": "vợ-đâu-rồi_raspberry-pi.ppn",
-            "sensitive": 0.4,
-            "command": "thời tiết hôm nay thế nào",
+            "sensitive": 0.1,
+            "say_reply": false,
+            "command": null,
             "active": true
         },
         {
@@ -86,11 +107,12 @@
             "value": null,
             "lang": "vi",
             "file_name": "con-mụ-kia_raspberry-pi.ppn",
-            "sensitive": 0.4,
-            "command": "bây giờ là mấy giờ",
+            "sensitive": 0.1,
+            "say_reply": false,
+            "command": null,
             "active": true
-        }       		
-	],
+        }
+    ],
 	"stt": {
 		"type": "stt_gg_free",
 		"token": null,
@@ -121,12 +143,12 @@
 			"active": true
 		},
 		"wakeup": {
-			"gpio": 6,
+			"gpio": 26,
 			"pulled_hight":false,			
 			"active": true
 		},
 		"mic": {
-			"gpio": 26,
+			"gpio": 6,
 			"pulled_hight":false,			
 			"active": false
 		}
@@ -140,17 +162,17 @@
 	},
     "sound": {
         "default": {
-            "start": "sound/default/ding.wav",
-            "finish": "sound/default/dong.wav"
+            "start": "sound/default/ding.mp3",
+            "finish": "sound/default/dong.mp3"
         },
         "custom": {
             "start": "sound/custom/"
         },
         "welcome": {
             "mode": "text",
-            "path": "sound/welcome/welcome.wav",
+            "path": "sound/welcome/welcome.mp3",
             "text": "Xin chào mời đọc khẩu lệnh, để ra lệnh"
         }
     },
-	"continuous_asking": false
+    "continuous_asking": false
 }
