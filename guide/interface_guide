@@ -1,7 +1,6 @@
 # Giao diện của vietbot_offline
 
 1. Cài đặt
-1.1. Download thư mục html từ git về thư mục /home/pi bằng WinSCP
 
 1.1. Xóa toàn bộ file cũ trong thư mục /var/www bằng lệnh
 
@@ -13,7 +12,7 @@ sudo rm -rf /var/www/html/*.*
 1.2. Copy vào thư mục /var/www bằng lệnh
 
 ```sh
-sudo cp /home/pi/html/*.* /var/www/html/*.*
+sudo cp -R /home/pi/vietbot_offline/html/ /var/www/
 
 ```
 1.3. Set quyền cho toàn bộ thư mục html bằng lệnh:
@@ -28,19 +27,7 @@ và
 sudo chmod 0777 /var/www/html/*.*
 
 ```
-1.4. Set quyền
 
-1.4.1. Set quyền cho toàn bộ thư mục vietbot_offline/src bằng lệnh
-```sh
-sudo chmod 0777 /home/pi/vietbot_offline/src
-
-```
-và
-
-```sh
-sudo chmod 0777 /home/pi/vietbot_offline/src/*.*
-
-```
 1.4.2. Set quyền cho tài khoản Apache2 được sử dụng 1 số lệnh của hệ thống
 
 ```sh
