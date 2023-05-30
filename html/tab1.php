@@ -155,7 +155,7 @@
                     '<li class="media"><div class="media-body"><div class="media"><div style = "text-align:right; color : #2EFE2E" class="media-body">' +
                     message + '<hr/></div></div></div></li>');
                 $.ajax({
-                    url: "http://xiaodu01:5000",
+                    url: "http://pi@pi1wmic2hat:5000",
                     type: "POST",
                     headers: {
                         "Content-Type": "application/json"
