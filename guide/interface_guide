@@ -55,6 +55,32 @@ www-data    ALL=(ALL:ALL) ALL
 ```
 Bấm Ctrl + X, rồi bấm Y để lưu lại
 
+1.4. Chỉnh lại tên của hostname
+
+1.4.1 Lấy hostname
+
+```sh
+pi@pi1wmic2hat:~ $ hostnamectl
+   Static hostname: pi1wmic2hat
+         Icon name: computer
+        Machine ID: 29569c36618942b1ad7f0cb7ca58c0d5
+           Boot ID: 49275ff5fd544a8983c0b5291aad133f
+  Operating System: Raspbian GNU/Linux 11 (bullseye)
+            Kernel: Linux 6.1.21+
+      Architecture: arm
+pi@pi1wmic2hat:~ $ 
+```
+Thì hostname là pi1wmic2hat
+
+1.4.2. Thay đổi hostname
+
+```sh
+sudo nano /var/www/html/tab1.php
+```
+Cửa sổ nano mở ra, kéo đến dòng 31
+Thay thế cụm từ "xiaodu01" bằng hostname lấy được ở 1.4.1, ví dụ ở đây là 'pi1wmic2hat'
+Trong trường hợp đổi port mặc định (5000) của web interface sang giá trị khác trong skill.json thì cũng phải thay giá trị cho phù hợp
+Bấm Ctrl +X + Y để save lại
 2. Sử dụng
 
 2.1. Truy cập trang Web
