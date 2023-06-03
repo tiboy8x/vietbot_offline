@@ -1,4 +1,48 @@
 {
+    "confirm": [{
+            "value": "được"
+        },
+        {
+            "value": "ok"
+        },
+        {
+            "value": "yes"
+        },
+        {
+            "value": "duyệt"
+        },
+        {
+            "value": "được"
+        },
+        {
+            "value": "đồng ý"
+        },
+        {
+            "value": "chấp nhận"
+        },
+        {
+            "value": "chấp nhận"
+        }
+    ],
+    "not_confirm": [{
+            "value": "không"
+        },
+        {
+            "value": "no"
+        },
+        {
+            "value": "not"
+        },
+        {
+            "value": "đừng"
+        },
+        {
+            "value": "thôi"
+        },
+        {
+            "value": "stop"
+        }
+    ],	
     "me": [{
             "value": "tôi"
         },
