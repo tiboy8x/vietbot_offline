@@ -14,7 +14,7 @@
         "wakeup_color": "03254b",
         "muted_color": "FF3333",
         "listen_effect": 1,
-        "think_effect": 2,
+        "think_effect": 1,
         "speak_effect": 3
 
     },
