@@ -7,7 +7,7 @@
 		"amixer_id": 0
 	},
     "led": {
-        "type": "Vietbot AIO Board V2.0",
+        "type": "WS2812",
         "number_led": 16,
         "effect_mode": 1,
         "brightness": 150,
