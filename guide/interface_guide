@@ -5,14 +5,14 @@
 1.1. Xóa toàn bộ file cũ trong thư mục /var/www bằng lệnh
 
 ```sh
-sudo rm -rf /var/www/html/*.*
+sudo rm -rf /var/www/html
 
 ```
 
 1.2. Copy vào thư mục /var/www bằng lệnh
 
 ```sh
-sudo cp -R /home/pi/vietbot_offline/html/ /var/www/html/
+sudo cp -R /home/pi/vietbot_offline/html/ /var/www/
 
 ```
 1.3. Set quyền  bằng lệnh:
