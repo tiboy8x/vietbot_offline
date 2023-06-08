@@ -21,7 +21,7 @@
     "volume_annoucement": true,
     "hotword_engine": {
         "type": "porcupine",
-        "key": "+1fiXzdbbOtBVTolh5RCQ1ovxjKI3+HM0HRKxL/uWUExVtsFmUdZ+Q=="
+        "key": "+1fiXgdfgdfgUExVtsFmUdZ+Q=="
     },
     "wakeup_reply": [{
             "value": "có em"
@@ -114,7 +114,7 @@
         }
     ],
 	"stt": {
-		"type": "stt_gg_free",
+		"type": "stt_gg_ass",
 		"token": null,
 		"token_file": "google.json",
 		"credentials_file": null,
