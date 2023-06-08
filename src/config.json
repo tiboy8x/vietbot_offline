@@ -128,8 +128,7 @@
 		"voice_name": null,
 		"voice_profile": null,
 		"speed": null,
-		"pitch": null,
-		"re_use": true
+		"pitch": null
 	},
 	"button": {
 		"down": {
