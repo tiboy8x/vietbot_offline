@@ -133,22 +133,22 @@
 	"button": {
 		"down": {
 			"gpio": 25,
-			"pulled_hight":false,			
+			"pulled_high":false,			
 			"active": true
 		},
 		"up": {
 			"gpio": 5,
-			"pulled_hight":false,			
+			"pulled_high":false,			
 			"active": true
 		},
 		"wakeup": {
 			"gpio": 26,
-			"pulled_hight":false,			
+			"pulled_high":false,			
 			"active": true
 		},
 		"mic": {
 			"gpio": 6,
-			"pulled_hight":false,			
+			"pulled_high":false,			
 			"active": false
 		}
 	},
