@@ -388,6 +388,18 @@
             "link": " https://xskt.com.vn/rss-feed/vung-tau-xsvt.rss"
         }
     ],
+    "distance_route": {
+        "pre_answer": null,
+        "error_answer": "Lỗi tra cứu khoảng cách và tuyến đường",
+		"gg_geocoding_api": "AIzafsđsfsfdQZ-rrQsfdsolEU",		
+        "active": false
+    },
+    "nearby_place": {
+        "pre_answer": null,
+        "error_answer": "Lỗi tra cứu địa điểm gần đây",
+		"gg_geocoding_api": "AIzsfsdfQZ-rrQ3sdfsdlEU",		
+        "active": false
+    },    
     "weather": {
         "openweathermap_key": "ffddbagdfg85fdgdfb",
         "pre_answer": null,
