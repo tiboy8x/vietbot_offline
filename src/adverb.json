@@ -1,1 +1,23 @@
-{"at_time": [{"value": "t\u1edbi"}, {"value": "v\u00e0o"}, {"value": "l\u00fac"}], "from_now": [{"value": "sau"}, {"value": "n\u1eefa"}, {"value": "t\u1eeb"}]}
+{
+    "at_time": [{
+        "value": "từ"
+    }, {
+        "value": "vào"
+    }, {
+        "value": "lúc"
+    }],
+    "from_now": [{
+        "value": "sau"
+    }, {
+        "value": "nữa"
+    }, {
+        "value": "tới"
+    }],
+    "near_by": [{
+        "value": "gần đây"
+    }, {
+        "value": "quanh đây"
+    }, {
+        "value": "xung quanh"
+    }]	
+}
