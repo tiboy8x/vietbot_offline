@@ -162,7 +162,8 @@
     "sound": {
         "default": {
             "start": "sound/default/ding.mp3",
-            "finish": "sound/default/dong.mp3"
+            "finish": "sound/default/dong.mp3",
+            "volume_change": "sound/default/tut_tut.mp3"            
         },
         "custom": {
             "start": "sound/custom/"
