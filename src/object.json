@@ -785,5 +785,15 @@
 		{
 			"value": "khách sạn"
 		}
-	]
+    ],
+    "mic": [{
+            "value": "mic"
+        },
+        {
+            "value": "mích"
+        },
+        {
+            "value": "microphone"
+        }
+    ]
 }
