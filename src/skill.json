@@ -427,19 +427,22 @@
     },
     "simsim": {
         "pre_answer": null,
-        "error_answer": "Không thực hiện được tra cứu Sim sim, hãy kiểm tra lại"
+        "error_answer": "Không thực hiện được tra cứu Sim sim, hãy kiểm tra lại",
+        "active": true
     },
     "gass": {
         "credentials_file": "credentials.json",
         "device_config_file": "device_config.json",
         "pre_answer": null,
-        "error_answer": "Không thực hiện được tra cứu Google Assistant, hãy kiểm tra lại"
+        "error_answer": "Không thực hiện được tra cứu Google Assistant, hãy kiểm tra lại",
+        "active": true
     },
     "chatgpt": {
         "token": "sk-UR3dgfdg03a",
         "engine": "text-davinci-003",
         "pre_answer": "Câu trả lời từ chatGPT có ngay sau đây",
-        "error_answer": "Không thực hiện được tra cứu chatGPT, hãy kiểm tra lại"
+        "error_answer": "Không thực hiện được tra cứu chatGPT, hãy kiểm tra lại",
+        "active": true
     },
     "hanet": {
         "agent_annoucement": "Phát hiện người nhà hoặc nhân viên tên là",
