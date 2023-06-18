@@ -427,22 +427,19 @@
     },
     "simsim": {
         "pre_answer": null,
-        "error_answer": "Lỗi Skill Sim sim",
-        "active": false
+        "error_answer": "Lỗi Skill Sim sim"
     },
     "gass": {
         "credentials_file": "credentials.json",
         "device_config_file": "device_config.json",
         "pre_answer": null,
-        "error_answer": "Lỗi Google Assistant",	
-        "active": true
+        "error_answer": "Lỗi Google Assistant"
     },
     "chatgpt": {
         "token": "sk-UR3dgfdg03a",
         "engine": "text-davinci-003",
         "pre_answer": "Câu trả lời từ chatGPT có ngay sau đây",
-        "error_answer": "Lỗi chatGPT",
-        "active": false
+        "error_answer": "Lỗi chatGPT"
     },
     "hanet": {
         "agent_annoucement": "Phát hiện người nhà hoặc nhân viên tên là",
