@@ -428,15 +428,13 @@
     "simsim": {
         "pre_answer": null,
         "error_answer": "Lỗi Skill Sim sim",
-        "auto_when_all_not_matched": true,		
         "active": false
     },
     "gass": {
         "credentials_file": "credentials.json",
         "device_config_file": "device_config.json",
         "pre_answer": null,
-        "error_answer": "Lỗi Google Assistant",
-        "auto_when_all_not_matched": true,		
+        "error_answer": "Lỗi Google Assistant",	
         "active": true
     },
     "chatgpt": {
@@ -444,7 +442,6 @@
         "engine": "text-davinci-003",
         "pre_answer": "Câu trả lời từ chatGPT có ngay sau đây",
         "error_answer": "Lỗi chatGPT",
-        "auto_when_all_not_matched": true,		
         "active": false
     },
     "hanet": {
