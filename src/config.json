@@ -174,5 +174,6 @@
             "text": "Xin chào mời đọc khẩu lệnh, để ra lệnh"
         }
     },
-    "continuous_asking": false
+    "continuous_asking": false,
+    "auto_answer_when_all_not_matched": true      	
 }
