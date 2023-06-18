@@ -1,17 +1,17 @@
 {
     "time": {
         "pre_answer": null,
-        "error_answer": "Lỗi tra cứu thời gian",
+        "error_answer": "Không thực hiện được tra cứu thời gian, hãy kiểm tra lại",
         "active": true
     },
     "network": {
         "pre_answer": "Kết quả được thông báo ngay sau đây",
-        "error_answer": "Lỗi kiểm tra mạng",
+        "error_answer": "Không thực hiện được kiểm tra mạng, hãy kiểm tra lại",
         "active": true
     },
     "news": {
         "pre_answer": "Tin tức được đọc ngay sau đây",
-        "error_answer": "Lỗi đọc tin tức",
+        "error_answer": "Không thực hiện được đọc tin tức, hãy kiểm tra lại",
         "active": true
     },
     "news_data": [{
@@ -29,7 +29,7 @@
     ],
     "radio": {
         "pre_answer": "Radio được phát ngay sau đây",
-        "error_answer": "Lỗi đọc tin tức",
+        "error_answer": "Không thực hiện được phát Radio, hãy kiểm tra lại",
         "active": true
     },
     "radio_data": [{
@@ -55,17 +55,17 @@
     ],
     "music": {
         "pre_answer": "Nhạc được phát ngay sau đây",
-        "error_answer": "Lỗi phát nhạc",
+        "error_answer": "Không thực hiện được phát nhạc, hãy kiểm tra lại",
         "active": true
     },
     "lunar_calendar": {
         "pre_answer": null,
-        "error_answer": "Lỗi tra cứu lịch âm",
+        "error_answer": "Không thực hiện được tra cứu lịch âm, hãy kiểm tra lại",
         "active": true
     },
     "anniversary": {
         "pre_answer": null,
-        "error_answer": "Lỗi tra cứu ngày kỉ niệm",
+        "error_answer": "Không thực hiện được tra cứu ngày kỉ niệm, hãy kiểm tra lại",
         "active": true
     },
     "anniversary_data": [{
@@ -143,12 +143,12 @@
     ],
     "history": {
         "pre_answer": "Kết quả được thông báo ngay sau đây",
-        "error_answer": "Lỗi tra cứu ngày này năm xưa",
+        "error_answer": "Không thực hiện được tra cứu ngày này năm xưa, hãy kiểm tra lại",
         "active": true
     },
     "currency_rate": {
         "pre_answer": "Kết quả được thông báo ngay sau đây",
-        "error_answer": "Lỗi tra cứu tỉ giá ngoại tệ",
+        "error_answer": "Không thực hiện được tra cứu tỉ giá ngoại tệ, hãy kiểm tra lại",
         "active": true
     },
     "currency_rate_data": [{
@@ -182,7 +182,7 @@
     ],
     "gold_rate": {
         "pre_answer": null,
-        "error_answer": "Lỗi tra cứu giá vàng",
+        "error_answer": "Không thực hiện được tra cứu giá vàng, hãy kiểm tra lại",
         "active": true
     },
     "gold_rate_data": [{
@@ -236,7 +236,7 @@
     ],
     "lottery": {
         "pre_answer": "Kết quả được thông báo ngay sau đây",
-        "error_answer": "Lỗi tra cứu kết quả sổ xố",
+        "error_answer": "Không thực hiện được tra cứu kết quả sổ xố, hãy kiểm tra lại",
         "active": true
     },
     "lottery_data": [{
@@ -390,56 +390,56 @@
     ],
     "distance_route": {
         "pre_answer": null,
-        "error_answer": "Lỗi tra cứu khoảng cách và tuyến đường",
+        "error_answer": "Không thực hiện được tra cứu khoảng cách và tuyến đường, hãy kiểm tra lại",
 		"gg_geocoding_api": "AIzafsđsfsfdQZ-rrQsfdsolEU",		
         "active": false
     },
     "nearby_place": {
         "pre_answer": null,
-        "error_answer": "Lỗi tra cứu địa điểm gần đây",
+        "error_answer": "Không thực hiện được tra cứu địa điểm gần đây, hãy kiểm tra lại",
 		"gg_geocoding_api": "AIzsfsdfQZ-rrQ3sdfsdlEU",		
         "active": false
     },    
     "weather": {
         "openweathermap_key": "ffddbagdfg85fdgdfb",
         "pre_answer": null,
-        "error_answer": "Lỗi tra cứu thời tiết khu vực",
+        "error_answer": "Không thực hiện được tra cứu thời tiết khu vực, hãy kiểm tra lại",
         "active": true
     },
     "hass": {
         "url": "http://192.168.1.123:8123",
         "token": "eyfdfdsfsLlU",
         "pre_answer": null,
-        "error_answer": "Lỗi kết nối đến Hass",
+        "error_answer": "Không thực hiện được kết nối đến Hass, hãy kiểm tra lại",
         "display_full_state": true,
         "active": true
     },
     "funny_story": {
         "pre_answer": "Tìm câu trả lời từ Skill truyện cười",
-        "error_answer": "Lỗi Skill truyện cười",
+        "error_answer": "Không thực hiện được Skill truyện cười, hãy kiểm tra lại",
         "active": true
     },
 
     "wikipedia": {
         "pre_answer": "Tìm câu trả lời từ Wikipedia",
-        "error_answer": "Lỗi Skill Wikipedia",
+        "error_answer": "Không thực hiện được tra cứu Wikipedia, hãy kiểm tra lại",
         "active": true
     },
     "simsim": {
         "pre_answer": null,
-        "error_answer": "Lỗi Skill Sim sim"
+        "error_answer": "Không thực hiện được tra cứu Sim sim, hãy kiểm tra lại"
     },
     "gass": {
         "credentials_file": "credentials.json",
         "device_config_file": "device_config.json",
         "pre_answer": null,
-        "error_answer": "Lỗi Google Assistant"
+        "error_answer": "Không thực hiện được tra cứu Google Assistant, hãy kiểm tra lại"
     },
     "chatgpt": {
         "token": "sk-UR3dgfdg03a",
         "engine": "text-davinci-003",
         "pre_answer": "Câu trả lời từ chatGPT có ngay sau đây",
-        "error_answer": "Lỗi chatGPT"
+        "error_answer": "Không thực hiện được tra cứu chatGPT, hãy kiểm tra lại"
     },
     "hanet": {
         "agent_annoucement": "Phát hiện người nhà hoặc nhân viên tên là",
@@ -450,7 +450,7 @@
     "telegram": {
         "token": "60gfdgdfAeU",
         "pre_answer": "Đang gửi Telegram tới đich",
-        "error_answer": "Lỗi Telegram",
+        "error_answer": "Không thực hiện được gửi Telegram, hãy kiểm tra lại",
         "active": false
     },
     "telegram_data": [{
@@ -464,12 +464,12 @@
     ],
     "countdown": {
         "pre_answer": "Đang tạo tác vụ đếm ngược",
-        "error_answer": "Lỗi tạo tác vụ đếm ngược",
+        "error_answer": "Không thực hiện được tạo tác vụ đếm ngược, hãy kiểm tra lại",
         "active": true
     },
     "schedule": {
         "pre_answer": "Đang tạo tác vụ lập lịch",
-        "error_answer": "Lỗi tạo tác vụ lập lịch",
+        "error_answer": "Không thực hiện được tạo tác vụ lập lịch, hãy kiểm tra lại",
         "active": true
     }
 }
