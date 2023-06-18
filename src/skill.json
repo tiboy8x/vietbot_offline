@@ -454,10 +454,6 @@
         "active": false
     },
     "telegram_data": [{
-            "name": "Thế Anh",
-            "chat_id": 6059124493
-        },
-        {
             "name": "Nguyễn Duy",
             "chat_id": 6059124493
         }
