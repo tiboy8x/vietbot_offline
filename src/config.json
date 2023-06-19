@@ -186,7 +186,7 @@
         "external_bot_priority_1": "gass",
         "external_bot_priority_2": "chatGPT",       
         "external_bot_priority_3": "SIMSIM",                
-        "pre_answer_timeout": 5,
+        "pre_answer_timeout": 8,
         "number_characters_to_switch_mode": 300,
         "pre_answer_content": "Câu trả lời lâu hơn thường lệ, vui lòng đợi"
 
