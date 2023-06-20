@@ -147,11 +147,17 @@
 			"value": "thời tiết"
 		},
 		{
-			"value": "nắng mưa"
+			"value": "mưa"
 		},
 		{
-			"value": "mưa nắng"
-		}
+			"value": "nắng"
+		},
+		{
+			"value": "gió"
+		},
+		{
+			"value": "ẩm"
+		}		
 	],
 	"news": [{
 			"value": "tin tức"
