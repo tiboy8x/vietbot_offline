@@ -1,1 +1,1 @@
-Cập nhật & Test nhé
+Đây là nhánh code dành cho PC sử dụng chip Intel & AMD với kiến trúc x86, chạy OS 32 hoặc 64 bit
