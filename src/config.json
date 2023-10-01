@@ -1,8 +1,9 @@
 {
     "smart_config": {
+        "bot_mode": "rapid",	    
         "block_updates": {
             "vietbot_program": false,
-            "web_ui": false
+            "web_ui": false,
 	    "web_ui_login": false
 	},	    
         "mic": {
@@ -13,7 +14,7 @@
             "amixer_id": 2
         },
         "led": {
-            "type": "Vietbot AIO Board V2.0",
+            "type": null,
             "number_led": 12,
             "effect_mode": 1,
             "brightness": 210,
