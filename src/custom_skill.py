@@ -31,18 +31,22 @@ adv_from_now=[p['value'] for p in adv_data['from_now']]
 adv_nearby=[p['value'] for p in adv_data['nearby']]
 
 
-def custom_data_process(player,led,volume,data):#Def này sẽ trả về kết quả để Vietbot đọc nội dung
+def custom_data_process(player2,led,volume):#Def này sẽ trả về kết quả để Vietbot đọc nội dung
     answer_text='Không có câu trả lời cho tình huống này' #Giá trị Default cho câu trả lời
-    answer_path=None #Giá trị Default cho link file âm thanh tại local
-    answer_link=None #Giá trị Default cho link file âm thanh dạng Stream  
+    answer_path=None #Giá trị Default cho link file âm thanh hoặc link stream
 
+    try:
+        data = stt_process().lower()    
+    except:
+        libs.logging('left','Không nhận dạng được lệnh','red') 
+        play_sound('FINISH') #Dong sound
+        answer_text='Không nhận dạng được lệnh'
     if any(item in data for item in obj_funny_story): #Nếu sử dụng keyword khác, cần khai báo trong obj.json và khai báo ở trên
-
         def get_story_content(url):
             headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
             }
-            response = requests.get(url, headers=headers)#lib requests này đã có trong libs, nên không cần phải import
+            response = libs.requests.get(url, headers=headers)#lib requests này đã có trong libs, nên không cần phải import
             soup = libs.bs4.BeautifulSoup(response.content, 'html.parser') #lib BeautifulSoup này đã có trong libs, nên không cần phải import
             content = soup.select_one('article.fck_detail').text.strip() # Tùy vào cấu trúc của trang web, chúng ta cần xác định chính xác selector, # Đây chỉ là một ví dụ giả định, bạn có thể cần điều chỉnh cho phù hợp với cấu trúc thực sự của trang
             return content
@@ -58,36 +62,8 @@ def custom_data_process(player,led,volume,data):#Def này sẽ trả về kết 
         if not name_result:
             name_result, name_url = libs.random.choice(story_data)
         answer_text= get_story_content(name_url)
+    player2.play_and_wait(tts_process('answer_text',False)) #False - Phát câu trả lời TTS ko cache lại nội dung, True - Có cache lại để cho lần sau
 
-    elif any(item in data for item in obj_music):
-        if act_on in data or act_open in data or any(item in data for item in act_play) : #Nếu sử dụng keyword khác, cần khai báo trong obj.json và khai báo ở trên
-            title=''
-            value=None
-            try:
-                ydl_opts = {
-                    'format': 'bestaudio/best',
-                    'postprocessors': [{
-                        'key': 'FFmpegExtractAudio',
-                        'preferredcodec': 'mp3',
-                    }],
-                }
-                search_query = 'ytsearch:' + data        
-                with libs.youtube_dl.YoutubeDL(ydl_opts) as ydl: #lib youtube_dl này đã có trong libs, nên không cần phải import
-                    info = ydl.extract_info(search_query, download=False)
-                    if 'entries' in info:
-                        entry = info['entries'][0]
-                        title = entry['title']
-                        value = entry['url']
-                answer_text=title
-                answer_path=None
-                answer_link=str(value)
-            except Exception as e:
-                libs.logging('left','CUSTOM SKILL, Có lỗi: '+str(e), 'red')                            
-                answer_text='Lỗi tìm kiếm bài hát'
-                answer_path=None
-                answer_link=None
-                
-    return answer_text,answer_path,answer_link
 
 if __name__ == '__main__':  
     from speaker_process import Player, Volume
